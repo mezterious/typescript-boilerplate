@@ -1,5 +1,5 @@
-import { greeting } from "./hello";
+import { greeting } from './hello';
 
 test('greeting is Hello, World', () => {
-    expect(greeting()).toBe("Hello, World!");
-})
+  expect(greeting()).toBe('Hello, World!');
+});
