@@ -1,0 +1,8 @@
+{
+  "*.{js,ts}": [
+    "eslint --cache --fix",
+    "prettier --write",
+    "npm test -- --coverage=false --bail --findRelatedTests --passWithNoTests"
+  ],
+  "*.{json,css,md}": "prettier --write"
+}
